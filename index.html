@@ -3,60 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site sobre a importância do campo para a cidade e da cidade para o campo.">
     <title>A Importância do Campo para a Cidade e da Cidade para o Campo</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Inclusão do CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center py-3">
         <h1>A Importância do Campo para a Cidade e da Cidade para o Campo</h1>
-        <nav>
-            <ul>
-                <li><a href="#campo-para-cidade">Campo para a Cidade</a></li>
-                <li><a href="#cidade-para-campo">Cidade para o Campo</a></li>
-                <li><a href="#conclusao">Conclusão</a></li>
-            </ul>
-        </nav>
+        <p class="lead">Uma visão sobre como esses dois mundos se complementam.</p>
     </header>
 
-    <section id="campo-para-cidade">
-        <h2>A Importância do Campo para a Cidade</h2>
-        <p>
-            O campo desempenha um papel fundamental para a cidade, fornecendo recursos essenciais como alimentos, matérias-primas e energia. 
-            Além disso, muitas atividades industriais dependem da produção agrícola para suas cadeias de suprimentos. O campo é responsável por 
-            abastecer as cidades com produtos básicos, como grãos, hortaliças, carnes, leite, e muitos outros itens vitais para a alimentação 
-            urbana.
-        </p>
-        <p>
-            Além da alimentação, o campo também contribui com espaços para a preservação ambiental, fornecendo recursos naturais como 
-            madeira e combustível, além de ajudar na regulação climática.
-        </p>
-    </section>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section1">Campo para a Cidade</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">Cidade para o Campo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <section id="cidade-para-campo">
-        <h2>A Importância da Cidade para o Campo</h2>
-        <p>
-            A cidade tem um papel crucial para o campo, pois oferece infraestrutura, serviços e inovação tecnológica. A urbanização proporciona 
-            mercados para os produtos do campo, impulsionando a economia rural. Além disso, as cidades concentram universidades, centros de 
-            pesquisa e tecnologia, que contribuem para o desenvolvimento de técnicas agrícolas mais eficientes e sustentáveis.
-        </p>
-        <p>
-            A cidade também oferece infraestrutura de transporte, permitindo que os produtos do campo cheguem aos centros urbanos de forma 
-            rápida e eficiente, e vice-versa, facilitando o acesso a insumos e equipamentos que não estão disponíveis no meio rural.
-        </p>
-    </section>
+    <!-- Corpo Principal -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Sidebar -->
+            <aside class="col-md-3">
+                <div class="list-group">
+                    <a href="#section1" class="list-group-item list-group-item-action">Campo para a Cidade</a>
+                    <a href="#section2" class="list-group-item list-group-item-action">Cidade para o Campo</a>
+                    <a href="#footer" class="list-group-item list-group-item-action">Contato</a>
+                </div>
+            </aside>
 
-    <section id="conclusao">
-        <h2>Conclusão</h2>
-        <p>
-            A relação entre o campo e a cidade é interdependente e fundamental para o desenvolvimento de ambas as áreas. O campo alimenta a cidade, 
-            enquanto a cidade oferece as condições para que o campo se desenvolva com mais eficiência e inovação. 
-            Essa parceria é crucial para o crescimento sustentável e para o bem-estar da sociedade como um todo.
-        </p>
-    </section>
+            <!-- Seção 1 - Campo para a Cidade -->
+            <section id="section1" class="col-md-9">
+                <h2>Campo para a Cidade</h2>
+                <p>O campo desempenha um papel essencial na manutenção e no abastecimento das cidades. Ele fornece alimentos, matérias-primas e energia, que são fundamentais para o desenvolvimento urbano e a qualidade de vida nas áreas urbanas. O abastecimento alimentar, por exemplo, é um dos pilares que sustenta as grandes cidades, sendo que muitas delas dependem da produção rural para sua sobrevivência.</p>
+                <p>Além disso, o campo é também um importante fornecedor de recursos naturais, como a água e os combustíveis. A presença de áreas verdes ao redor das cidades ajuda na qualidade do ar e proporciona lazer e bem-estar para os habitantes urbanos.</p>
+            </section>
 
-    <footer>
-        <p>&copy; 2025 A Importância do Campo para a Cidade | Todos os direitos reservados.</p>
+            <!-- Seção 2 - Cidade para o Campo -->
+            <section id="section2" class="col-md-9">
+                <h2>Cidade para o Campo</h2>
+                <p>A cidade, por sua vez, oferece muitos benefícios ao campo. A infraestrutura urbana, como estradas, eletricidade e telecomunicações, facilita o escoamento da produção rural e o acesso das pessoas do campo aos serviços urbanos essenciais, como saúde, educação e comércio.</p>
+                <p>Além disso, as inovações tecnológicas desenvolvidas nas cidades podem ser aplicadas ao campo, aumentando a produtividade agrícola e promovendo o uso sustentável dos recursos naturais. O acesso a financiamentos e mercados também é facilitado pela presença de centros urbanos próximos, que promovem o desenvolvimento do setor agrícola.</p>
+            </section>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer id="footer" class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2025 A Importância do Campo e da Cidade | Todos os direitos reservados</p>
     </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
