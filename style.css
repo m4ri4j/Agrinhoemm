@@ -1,0 +1,14 @@
+header {
+    background-image: url(campo.jpeg);
+}
+
+header h1 {
+    background-color: black;
+    opacity: 0.7;
+
+}
+
+.lead{
+    background-color: black;
+     opacity: 0.7;
+}
